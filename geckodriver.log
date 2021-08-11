@@ -1,0 +1,58 @@
+1628657668748	geckodriver	INFO	Listening on 127.0.0.1:33111
+1628657669607	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegcnY8L"
+1628657677705	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegcnY8L/search.json.mozlz4", (void 0)))
+1628657692085	Marionette	INFO	Listening on port 44791
+1628657692402	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628657711851	Marionette	INFO	Stopped listening on port 44791
+1628657773453	geckodriver	INFO	Listening on 127.0.0.1:40087
+1628657773460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenwsdkq"
+1628657774271	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenwsdkq/search.json.mozlz4", (void 0)))
+1628657779896	Marionette	INFO	Listening on port 45299
+1628657780041	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628659348428	Marionette	INFO	Stopped listening on port 45299
+1628659368554	geckodriver	INFO	Listening on 127.0.0.1:32999
+1628659368592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileffkhLN"
+1628659373755	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileffkhLN/search.json.mozlz4", (void 0)))
+1628659382712	Marionette	INFO	Listening on port 37093
+1628659383090	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 221: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628660963794	Marionette	INFO	Stopped listening on port 37093
