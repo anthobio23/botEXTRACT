@@ -898,3 +898,5 @@ JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line
 JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
 JavaScript error: https://d12zyq17vm1xwx.cloudfront.net/v2/wpn.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
 JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
