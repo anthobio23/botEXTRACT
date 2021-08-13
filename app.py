@@ -1,8 +1,6 @@
 import time
 import random as rd
 import pandas as pd
-
-from selenium.webdriver.firefox import options
 import numpy as np
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -19,7 +17,10 @@ driver.get(PATH)
 time.sleep(rd.randint(5.0, 8.0))
 #assert len(driver.window_handles) == 1
 
-class DOM:
+class DOM():
+
+    def __init__(self):
+        pass
 
     def lector_file():
     
@@ -27,7 +28,16 @@ class DOM:
             l_COD = [line.rstrip() for line in file]
         return l_COD
 
-    def extract_elemt():
+    def price_text(self, value):
+
+        price_item = value[0].text.split("$ ")
+        price_value = int(float(price_item[1]) * 1000 / 1)
+        price_30off = price_value - price_value * .30
+        price_tot = int(price_30off * 1.9)
+
+        return price_tot
+
+    def extract_elemt(self):
 
         box_items = driver.find_elements_by_xpath('//div[@class="section__prateleira-product"]')
         for iter in box_items:
@@ -39,12 +49,18 @@ class DOM:
         for i in box_prod_it:
 
             title = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--name"]')
+            title_1 = title[0].text # Recoger el titulo en el DOM.
+            
+            desc = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--description"]')
+            desc_1 = desc[0].text # Recoge la descripcion de los productos en el DOM.
 
-            print(title[0].text) # funciona, recoge el texto plano del DOM dentro de un div
+            sku = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--sku-reference"]')
+            sku_1 = sku[0].text
 
-#            desc = i.find_element_by_xpath('//div[@class="product-content__sheet-right--description"]/div').text()
-#            print(desc)
-          
+            price = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--price"]')
+            print(self.price_text(price))
+
+       
         pass
     pass
 
@@ -54,7 +70,8 @@ def search():
     cod = DOM.lector_file()
     buscador.send_keys(str(cod[0]) + Keys.ENTER)
     time.sleep(rd.randint(2.0, 8.0))
-    DOM.extract_elemt()
+    _in = DOM()
+    _in.extract_elemt()
     pass
 
 search()

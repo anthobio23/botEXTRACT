@@ -900,3 +900,560 @@ JavaScript error: https://d12zyq17vm1xwx.cloudfront.net/v2/wpn.min.js, line 1: S
 JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628872246080	geckodriver	INFO	Listening on 127.0.0.1:41385
+1628872246215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYeRP8i"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628872253732	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYeRP8i/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628872279884	Marionette	INFO	Listening on port 37599
+1628872279939	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://use.typekit.net/son0zlf.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://use.fontawesome.com/releases/v5.8.1/css/all.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://intime.vteximg.com.br/arquivos/cookieconsent.min.css?v=636927927238300000 without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628872747258	Marionette	INFO	Stopped listening on port 37599
+1628872749306	geckodriver	INFO	Listening on 127.0.0.1:46801
+1628872749458	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFueNKE"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628872757935	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFueNKE/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628872771590	Marionette	INFO	Listening on port 45681
+1628872771624	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://use.typekit.net/son0zlf.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://use.fontawesome.com/releases/v5.8.1/css/all.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://intime.vteximg.com.br/arquivos/cookieconsent.min.css?v=636927927238300000 without a browsingContextID set
+1628873022718	Marionette	INFO	Stopped listening on port 45681
+1628873024717	geckodriver	INFO	Listening on 127.0.0.1:53549
+1628873024777	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelLddl5"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628873030365	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelLddl5/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628873044864	Marionette	INFO	Listening on port 46509
+1628873044924	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628873520650	Marionette	INFO	Stopped listening on port 46509
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628873524826	geckodriver	INFO	Listening on 127.0.0.1:50255
+1628873524974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileptHBmT"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628873535921	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileptHBmT/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628873555401	Marionette	INFO	Listening on port 36195
+1628873558976	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628875321656	Marionette	INFO	Stopped listening on port 36195
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628875325927	geckodriver	INFO	Listening on 127.0.0.1:49983
+1628875326021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIRxfPa"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628875332466	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIRxfPa/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628875350566	Marionette	INFO	Listening on port 46533
+1628875350629	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628875917793	Marionette	INFO	Stopped listening on port 46533
+1628875929857	geckodriver	INFO	Listening on 127.0.0.1:46331
+1628875930821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePKAwG3"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628875933181	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePKAwG3/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628875946588	Marionette	INFO	Listening on port 34513
+1628875950187	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://use.typekit.net/son0zlf.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://use.fontawesome.com/releases/v5.8.1/css/all.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://intime.vteximg.com.br/arquivos/cookieconsent.min.css?v=636927927238300000 without a browsingContextID set
+1628876049710	geckodriver	INFO	Listening on 127.0.0.1:35761
+1628876049741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo8W8tE"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628876052597	Marionette	INFO	Marionette enabled
+1628876057114	Marionette	INFO	Stopped listening on port 34513
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo8W8tE/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628876068037	Marionette	INFO	Listening on port 41761
+1628876071562	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+1628876113409	geckodriver	INFO	Listening on 127.0.0.1:55133
+1628876113431	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQKQiOG"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628876114521	Marionette	INFO	Marionette enabled
+1628876119228	Marionette	INFO	Stopped listening on port 41761
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQKQiOG/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628876128403	Marionette	INFO	Listening on port 46061
+1628876128480	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628878144748	Marionette	INFO	Stopped listening on port 46061
+1628878146218	geckodriver	INFO	Listening on 127.0.0.1:42007
+1628878146310	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWdBAyQ"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628878154386	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWdBAyQ/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628878167286	Marionette	INFO	Listening on port 33555
+1628878168775	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628878845203	Marionette	INFO	Stopped listening on port 33555
+1628878845765	geckodriver	INFO	Listening on 127.0.0.1:35991
+1628878845782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqGAltN"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628878847146	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqGAltN/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628878860321	Marionette	INFO	Listening on port 34941
+1628878861879	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://use.typekit.net/son0zlf.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://use.fontawesome.com/releases/v5.8.1/css/all.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://intime.vteximg.com.br/arquivos/cookieconsent.min.css?v=636927927238300000 without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628879468766	Marionette	INFO	Stopped listening on port 34941
+1628879473002	geckodriver	INFO	Listening on 127.0.0.1:58519
+1628879473025	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXaLY2P"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628879474288	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXaLY2P/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628879485917	Marionette	INFO	Listening on port 40327
+1628879485969	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+1628879536277	geckodriver	INFO	Listening on 127.0.0.1:49623
+1628879536294	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek9r7VB"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628879537029	Marionette	INFO	Marionette enabled
+1628879542595	Marionette	INFO	Stopped listening on port 40327
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilek9r7VB/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628879549656	Marionette	INFO	Listening on port 43657
+1628879551124	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628881629265	geckodriver	INFO	Listening on 127.0.0.1:45635
+1628881629295	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefjJqms"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628881632139	Marionette	INFO	Marionette enabled
+1628881636076	Marionette	INFO	Stopped listening on port 43657
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefjJqms/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628881643823	Marionette	INFO	Listening on port 35477
+1628881643877	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1628881940136	geckodriver	INFO	Listening on 127.0.0.1:47095
+1628881940160	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXuT2ZD"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628881941154	Marionette	INFO	Marionette enabled
+1628881946068	Marionette	INFO	Stopped listening on port 35477
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXuT2ZD/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628881954062	Marionette	INFO	Listening on port 40073
+1628881954129	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628882462544	Marionette	INFO	Stopped listening on port 40073
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628882464695	geckodriver	INFO	Listening on 127.0.0.1:43273
+1628882464791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKU4dq8"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628882467702	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKU4dq8/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628882477269	Marionette	INFO	Listening on port 38995
+1628882480764	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+1628882539131	geckodriver	INFO	Listening on 127.0.0.1:35385
+1628882539151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8Z5dMk"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628882542952	Marionette	INFO	Stopped listening on port 38995
+1628882542955	Marionette	INFO	Marionette enabled
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8Z5dMk/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628882554788	Marionette	INFO	Listening on port 38723
+1628882554856	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+1628882711194	geckodriver	INFO	Listening on 127.0.0.1:42421
+1628882711240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea6zLWL"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628882714010	Marionette	INFO	Marionette enabled
+1628882715179	Marionette	INFO	Stopped listening on port 38723
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea6zLWL/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628882727499	Marionette	INFO	Listening on port 43225
+1628882727882	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+1628882750679	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628885606775	Marionette	INFO	Stopped listening on port 43225
+1628885607498	geckodriver	INFO	Listening on 127.0.0.1:59379
+1628885607569	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5eB6RJ"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628885613605	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5eB6RJ/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628885631488	Marionette	INFO	Listening on port 46799
+1628885631583	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628886542904	Marionette	INFO	Stopped listening on port 46799
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628886545154	geckodriver	INFO	Listening on 127.0.0.1:43053
+1628886546101	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8e0XrR"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628886549990	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8e0XrR/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628886561050	Marionette	INFO	Listening on port 39975
+1628886561093	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628889478822	Marionette	INFO	Stopped listening on port 39975
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628889480403	geckodriver	INFO	Listening on 127.0.0.1:57737
+1628889480591	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCePoyY"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628889494462	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCePoyY/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628889520271	Marionette	INFO	Listening on port 46663
+1628889520335	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+1628889643342	Marionette	INFO	Stopped listening on port 46663
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628889646630	geckodriver	INFO	Listening on 127.0.0.1:52679
+1628889646675	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewrsyjk"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628889657082	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewrsyjk/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628889674127	Marionette	INFO	Listening on port 34983
+1628889674182	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://d12zyq17vm1xwx.cloudfront.net/v2/wpn.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://d12zyq17vm1xwx.cloudfront.net/v2/wpn.min.js, line 1: TypeError: e is undefined
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 219: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 219: unreachable code after return statement
+JavaScript error: https://d12zyq17vm1xwx.cloudfront.net/v2/wpn.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1628889835527	Marionette	INFO	Stopped listening on port 34983
+1628889974939	geckodriver	INFO	Listening on 127.0.0.1:43073
+1628889975008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXd4pW3"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628889984946	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXd4pW3/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628890000955	Marionette	INFO	Listening on port 42761
+1628890002437	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628890586515	Marionette	INFO	Stopped listening on port 42761
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628890588381	geckodriver	INFO	Listening on 127.0.0.1:48697
+1628890588412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOK6KIS"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628890593087	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOK6KIS/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628890605082	Marionette	INFO	Listening on port 34049
+1628890606609	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+1628890820630	Marionette	INFO	Stopped listening on port 34049
+1628890822582	geckodriver	INFO	Listening on 127.0.0.1:41495
+1628890822618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevVBSgF"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628890826204	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevVBSgF/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1628890838646	Marionette	INFO	Listening on port 46143
+1628890838695	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1628891036706	geckodriver	INFO	Listening on 127.0.0.1:60421
+1628891036728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepDwwLA"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628891037862	Marionette	INFO	Marionette enabled
+1628891041134	Marionette	INFO	Stopped listening on port 46143
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepDwwLA/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628891048816	Marionette	INFO	Listening on port 43845
+1628891050282	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://d12zyq17vm1xwx.cloudfront.net/v2/wpn.min.js, line 1: TypeError: e is undefined
+JavaScript error: https://d12zyq17vm1xwx.cloudfront.net/v2/wpn.min.js, line 1: TypeError: e is undefined
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://d12zyq17vm1xwx.cloudfront.net/v2/wpn.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://www.intime.cl/sosten-realce-classic-espalda-de-microfibra-encaje-poliamida-elasticada-blanco/p, line 1279: SyntaxError: missing ) after argument list
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://d12zyq17vm1xwx.cloudfront.net/v2/wpn.min.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628892287317	Marionette	INFO	Stopped listening on port 43845
+1628892289749	geckodriver	INFO	Listening on 127.0.0.1:51679
+1628892289770	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileU9V3V8"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1628892291225	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileU9V3V8/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1628892303608	Marionette	INFO	Listening on port 36187
+1628892305163	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: https://static.zdassets.com/web_widget/latest/web-widget-preload-94ecb94ea347e6001c77.js, line 2: Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-W85QRN2, line 218: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1628892731995	Marionette	INFO	Stopped listening on port 36187
