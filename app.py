@@ -28,9 +28,23 @@ class DOM():
             l_COD = [line.rstrip() for line in file]
         return l_COD
 
-    def price_text(self, value):
+    def price_calc(self, value):
 
-        price_item = value[0].text.split("$ ")
+        """
+        Calculo del precio real de los productos de un 30% 
+        de descuento multiplicado por un factor del 1.9
+
+        :parameters
+
+        input: cadena de texto correspondiente a la etiqueta html
+        de la pagina el cual contiene el precio en pesos chilenos 
+        de los productos. 
+
+        output: valor entero real del coste del producto
+        """
+
+
+        price_item = value.split("$ ")
         price_value = int(float(price_item[1]) * 1000 / 1)
         price_30off = price_value - price_value * .30
         price_tot = int(price_30off * 1.9)
@@ -45,6 +59,10 @@ class DOM():
             items.click()
             pass
 
+        # get image
+        img = driver.find_element_by_class_name("image-0").get_attribute("src"))
+
+        # get box items product
         box_prod_it = driver.find_elements_by_xpath('//div[@class="product-content__sheet-right"]')
         for i in box_prod_it:
 
@@ -58,9 +76,20 @@ class DOM():
             sku_1 = sku[0].text
 
             price = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--price"]')
-            print(self.price_text(price))
+            price_1 = self.price_calc(price[0].text)
 
-       
+            size = i.find_elements_by_xpath('//div[@class="sku-selector-container sku-selector-container-0"]')
+            size_1 = size[0].text
+
+            
+
+            box_color = i.find_elements_by_xpath('//div[@class="prateleira-similares__content"]')
+#            for j in box_color:
+
+#                img_items = j.find_elements_by_xpath("/")
+
+#                print(img_items[0].get_attribute("src"))
+  
         pass
     pass
 
