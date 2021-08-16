@@ -1,7 +1,17 @@
-x = "$ 8.800"
-x2= (x.split("$ "))
+simport spandas
 
-price_value = int(float(x2[1])*1000/1)
-price_30off = price_value - price_value*0.30
-print(int(price_30off * 1.9))
+ds = pandas.read_excel("scraping_data.xlsx",
+        sheet_name="Sostenes", header=None,
+        names=["produc", "Cant/char", "CodUniversal", 
+            "color", "colo_comercial", "talla", "img",
+            "sku", "cantidad", "Precio", "Moneda", "Condicion",
+            "Desc", "link", "tipPublicacion", "formaenvio",
+            "costoenvio", "retiropersona", "garantia", "tiempogarantia",
+            "unidad_garantia", "Marca", "Modelo", "cant_pack", "genero",
+            "composicion", "material", "tipoBombacha", 
+            "apta_embarazadas"])
+print(ds.head(10))
+
+
+
 
