@@ -1,4 +1,4 @@
-simport spandas
+import pandas
 
 ds = pandas.read_excel("scraping_data.xlsx",
         sheet_name="Sostenes", header=None,

@@ -1,6 +1,9 @@
+import os
 import time
+import requests
 import random as rd
 import pandas as pd
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
@@ -30,6 +33,8 @@ class DOM():
         self.sku = []
         self.price = []
         self.size = []
+        self.img = []
+        self.code = []
 
         pass
 
@@ -44,12 +49,13 @@ class DOM():
             l_COD = [line.rstrip() for line in file]
         return l_COD
 
-    def load_xlsx(self, FILE, sheets):
+    def load_xlsx(sheets):
 
         ds = pd.read_excel("scraping_data.xlsx",
-                sheet_name=sheets, header=None,
+                sheet_name=sheets,
+                header=None,
                 names=["produc", "Cant/char", "CodUniversal", 
-                    "color", "colo_comercial", "talla", "img",
+                    "color", "color_comercial", "talla", "img",
                     "sku", "cantidad", "Precio", "Moneda", "Condicion",
                     "Desc", "link", "tipPublicacion", "formaenvio",
                     "costoenvio", "retiropersona", "garantia", "tiempogarantia",
@@ -75,7 +81,6 @@ class DOM():
         output: valor entero real del coste del producto
         """
 
-
         price_item = value.split("$ ")
         price_value = int(float(price_item[1]) * 1000 / 1)
         price_30off = price_value - price_value * .30
@@ -83,39 +88,67 @@ class DOM():
 
         return price_tot
 
-    def extract_elemt(self):
+    def extract_imgs_box(self, url):
 
-        box_items = driver.find_elements_by_xpath('//div[@class="section__prateleira-product"]')
-        for iter in box_items:
-            items = iter.find_element_by_class_name('product-image')
-            items.click()
+        r = requests.get(url)
+        html = r.content
+        soup = BeautifulSoup(html, "html.parser")
+
+        fichaProducto = soup.find_all("div", 
+                class_="product__img-preview imgPreview slick-initialized slick-slider slick-vertical")
+        i = 0
+        for element in fichaProducto:
+            print(element.find("img", class_="slick-slide slick-active").get("src"))
+            i+=1
             pass
+        pass
 
-        # get image
-        img = driver.find_element_by_class_name("image-0").get_attribute("src")
+    def extract_elemt(self, cod_model):
 
-        box_prod_it = driver.find_elements_by_xpath('//div[@class="product-content__sheet-right"]')
-        for i in box_prod_it:
-
-            title = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--name"]')
-            self.title.append(title[0].text) # Recoger el titulo en el DOM.
+        box_items = driver.find_elements_by_xpath('//a[@class="product-image"]')
+        time.sleep(rd.randint(2.0, 8.0))
+  
+        #items = box_items.find_element_by_class_name('product-image')
+        print(len(box_items))
+        if len(box_items) > 0:
             
-            desc = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--description"]')
-            self.desc.append(desc[0].text) # Recoge la descripcion de los productos en el DOM.
+            box_items[0].click()
+            self.code.append(cod_model)
 
-            sku = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--sku-reference"]')
-            self.sku.append(sku[0].text)
+            time.sleep(rd.randint(2.0, 8.0))
 
-            price = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--price"]')
-            self.price.append(self.price_calc(price[0].text))
+            # get image major
+            get_img = driver.find_element_by_xpath("//img[@class='image-0']")
+            self.img.append(get_img.get_attribute("src"))
+        #get_img1 = driver.find_element_by_xpath("//img[@class='image-1']")
+        #self.img.append(get_img1.get_attribute("src"))
 
-            size = i.find_elements_by_xpath('//div[@class="sku-selector-container sku-selector-container-0"]')
-            self.size.append(size[0].text)
+        # get image minus
+        #URL_IMGS = driver.current_url
+        #imgs = self.extract_imgs_box(url=URL_IMGS)
 
-            box_color = i.find_elements_by_xpath('//div[@class="prateleira-similares__content"]')
+            box_prod_it = driver.find_elements_by_xpath('//div[@class="product-content__sheet-right"]')
+            for i in box_prod_it:
 
+                title = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--name"]')
+                self.title.append(title[0].text) # Recoger el titulo en el DOM.
+           
+                desc = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--description"]')
+                self.desc.append(desc[0].text) # Recoge la descripcion de los productos en el DOM.
+
+                sku = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--sku-reference"]')
+                self.sku.append(sku[0].text)
+
+                price = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--price"]')
+                self.price.append(self.price_calc(price[0].text))
+
+                size = i.find_elements_by_xpath('//div[@class="sku-selector-container sku-selector-container-0"]')
+                self.size.append(size[0].text)
+
+                #box_color = i.find_elements_by_xpath('//div[@class="prateleira-similares__content"]')
+                pass
             pass
-        return self.title, self.desc, self.sku, self.price, self.size
+        return self.title, self.desc, self.sku, self.price, self.size, self.img, self.code
     pass
 
 title = []
@@ -124,28 +157,52 @@ sku = []
 price = []
 size = []
 code = []
+img = []
 
-buscador = driver.find_element_by_xpath('//input[@class="fulltext-search-box ui-autocomplete-input"]')
+_in = DOM()
 cod_file = DOM.lector_file()
-for j in range(0, len(cod_file)):
-    buscador.send_keys(str(cod_file[j]) + Keys.ENTER)
+
+i = 0
+while i < len(cod_file):
+
+    
+    buscador = driver.find_element_by_xpath('//input[@class="fulltext-search-box ui-autocomplete-input"]')
+    time.sleep(rd.randint(2.0, 8.0))    
+    
+    buscador.send_keys(cod_file[i] + Keys.ENTER)
     time.sleep(rd.randint(2.0, 8.0))
-    _in = DOM()
 
     # variables de extraccion 
-    tit, des, sk, pc, sz = _in.extract_elemt()
+   
+    tit, des, sk, pc, sz, im, model = _in.extract_elemt(cod_file[i])
+    i = i + 1
 
-    # listar todos los elementos extraidos
-    title.append(tit)
-    desc.append(desc)
-    sku.append(sku)
-    price.append(pc)
-    size.append(sz)
-    code.append(cod_file[j])
+    time.sleep(rd.randint(2.0, 8.0))
+    driver.refresh()
 
+    if i > len(cod_file):
+        break
+    else:
+        continue
+    pass
 
-df = pd.DataFrame(list(zip(title, desc, sku, price, size, code)),
-    columns=["title", "descripcion", "sku", "price", "size", "code"])
+#print(tit)
+#print(des)
+#print(sk)
+#print(pc)
+#print(sz)
+#print(im)
+ds = DOM.load_xlsx("Sostenes")
+ds["produc"] = tit
+d["Desc"] = des 
+ds["sku"] = sk
+ds["img"] = im
+ds["Precio"] = pc
+ds["talla"] = sz
+ds["Modelo"] = model
+print(ds)
+#df = pd.DataFrame(list(zip(title, desc, sku, price, size, code)),
+#columns=["title", "descripcion", "sku", "price", "size", "code"])
 
-df.head(10)
-
+#print(df.head(10))
+ds.to_excel("intime_extract.xlsx", index=False)
