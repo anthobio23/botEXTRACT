@@ -1,17 +1,11 @@
-import pandas
+#!/usr/bin/python3
 
-ds = pandas.read_excel("scraping_data.xlsx",
-        sheet_name="Sostenes", header=None,
-        names=["produc", "Cant/char", "CodUniversal", 
-            "color", "colo_comercial", "talla", "img",
-            "sku", "cantidad", "Precio", "Moneda", "Condicion",
-            "Desc", "link", "tipPublicacion", "formaenvio",
-            "costoenvio", "retiropersona", "garantia", "tiempogarantia",
-            "unidad_garantia", "Marca", "Modelo", "cant_pack", "genero",
-            "composicion", "material", "tipoBombacha", 
-            "apta_embarazadas"])
-print(ds.head(10))
+from component import process
+print("Module ", __name__)
 
+file = process.load_file("COD.txt")
+print(file)
 
-
-
+def test(*args):
+	print(args[0], args[1])
+test(1, 2)

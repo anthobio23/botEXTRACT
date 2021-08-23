@@ -3,3 +3,7 @@ numpy
 lxml
 selenium
 beautifulsoup4
+requests
+html_parser
+html
+
