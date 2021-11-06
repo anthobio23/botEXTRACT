@@ -84,56 +84,66 @@ class DOM():
             i+=1
             pass
         pass
-
+    
     # lista de elemetos
     sku_ls = []
     size_ls = []
 
     def extract_elemt(self, cod_model):
-
+      
+        #recuperamos la cantidad de box por items para excrapear.
         box_items = driver.find_elements_by_xpath('//a[@class="product-image"]')
-        time.sleep(rd.randint(2.0, 8.0))
-        for iter in box_items:
-            print(iter)
-  
         print(len(box_items))
+
         if len(box_items) > 0:
-            print(cod_model)
-            
-            box_items[0].click()
-            self.code.append(cod_model)
 
             time.sleep(rd.randint(2.0, 8.0))
+            box_items[0].click()
 
+            print("Codigo de modelo a extraer: ", cod_model)
+            self.code.append(cod_model)
+            time.sleep(rd.randint(2.0, 10.0))
             # get image major
             get_img = driver.find_element_by_xpath("//img[@class='image-0']")
             self.img.append(get_img.get_attribute("src"))
-
+    
             box_prod_it = driver.find_elements_by_xpath('//div[@class="product-content__sheet-right"]')
+            
             for i in box_prod_it:
-
+                
                 title = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--name"]')
-                name = self.title.append(title[0].text) # Recoger el titulo en el DOM.
-           
+                self.title.append(title[0].text) # Recoger el titulo en el DOM.
+ #               print(self.title)
+          
                 desc = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--description"]')
-                description = self.desc.append(desc[0].text) # Recoge la descripcion de los productos en el DOM.
+                self.desc.append(desc[0].text) # Recoge la descripcion de los productos en el DOM.
+ #               print(self.desc)
 
                 sku = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--sku-reference"]')
                 self.sku.append(sku[0].text) # Recoge el codigo sku de los productos en el DOM.
                 self.sku_ls.append(self.sku[0].split("\n")[1])
+  #              print(self.sku_ls)
 
                 price = i.find_elements_by_xpath('//div[@class="product-content__sheet-right--price"]')
                 self.price.append(self.price_calc(price[0].text)) # Recoge el precio de los preductos en el DOM.
+   #             print(self.price)
 
                 size = i.find_elements_by_xpath('//div[@class="sku-selector-container sku-selector-container-0"]')
                 self.size.append(size[0].text) # Recoge las tallas (Crear funcion para organizarla)
                 size = self.size[0].split("\n")
                 self.size_ls.append([size[iter] for iter in range(1, len(size))])
+    #            print(self.size_ls)
 
                 divcomp = i.find_elements_by_xpath('//div[@class="product__details-composition i-despegable"]')
                 divcomp[0].click() # hace click sobre el div de composicion
+
                 span_comp = i.find_elements_by_xpath(".//span[@class='product__composition-element']")
-                self.comp.append(span_comp[0].text) # Recoge la composicion de los productos.
+                if len(span_comp) > 0:
+                    self.comp.append(span_comp[0].text) # Recoge la composicion de los productos.
+   #               print(self.comp)
+                else:
+                    None
+                    pass
                 pass
             pass
         return self.title, self.desc, self.sku_ls, self.price, self.size_ls, self.img, self.code, self.comp
@@ -159,13 +169,13 @@ class DOM():
         :output
         intoduce el codigo sobre el buscador y va hacia adelante del mismo.
         """
-        
+       
         # llamaremos al metodo para leer nuestro codigos.
         # luego iteraremos sobre la lista creada.
         cod_file = process.load_file(args[0])
-        i = 0
-        while i < len(cod_file):
-            
+ #       i = 0
+        for i in range(0, len(cod_file)):
+    
             # llamada a selenium para que busqua el objeto buscador con el xpath.
             search = driver.find_element_by_xpath(str(args[1]))
             time.sleep(rd.randint(2.0, 8.0))    
@@ -173,20 +183,19 @@ class DOM():
             # daremos un ENTER con selenium
             search.send_keys(cod_file[i] + Keys.ENTER)
             time.sleep(rd.randint(2.0, 8.0))
-
-            scrap = self.extract_elemt(cod_file[i])
-                           
-            i = i + 1
+              
+#           i = i + 1
             time.sleep(rd.randint(2.0, 8.0))
             driver.refresh()
 
-            if i > len(cod_file):
-                break
-            else:
-                continue
+            scrap = self.extract_elemt(cod_file[i])
             # enviar cada codigo iterado para extraer cada elemento de la pagina
-            return scrap
-        pass
+#            if i >= len(cod_file):
+#                break
+#            else: 
+#                continue
+            pass
+        return scrap
     pass
 
 
@@ -194,30 +203,30 @@ class DOM():
 path_code = "COD.txt"
 xpath = "//input[@class='fulltext-search-box ui-autocomplete-input']"
 _in = DOM()
-__ = _in.forms_search(path_code, xpath)
-
 
 # clear data
-tit, des, sk, pc, sz, im, cod, comp = __
-print(tit)
-print(des)
-print(sk)
-print(pc)
-print(sz)
-print(im)
-print(cod)
-print(comp)
-#ds = DOM.load_xlsx("Sostenes")
-#ds["produc"] = tit
-#d["Desc"] = des 
-#ds["sku"] = sk
-#ds["img"] = im
-#ds["Precio"] = pc
-#ds["talla"] = sz
-#ds["Modelo"] = model
-#print(ds)
-#df = pd.DataFrame(list(zip(title, desc, sku, price, size, code)),
-#columns=["title", "descripcion", "sku", "price", "size", "code"])
+tit, des, sk, pc, sz, im, cod, comp = _in.forms_search(path_code, xpath)
 
-#print(df.head(10))
-#ds.to_excel("intime_extract.xlsx", index=False)
+#print(tit)
+#print(des)
+#print(sk)
+#print(pc)
+#print(sz)
+#print(im)
+#print(cod)
+#print(comp)
+
+ds = pd.DataFrame({"Composition": comp})
+#ds = pd.read_excel("plantilla.xlsx")
+#ds["Titulo"] = tit
+#ds["Descripcion"] = des 
+#ds["SKU"] = sk
+#ds["Imagenes"] = im
+#ds["Precio"] = pc
+#ds["Talla"] = sz
+#ds["Modelo"] = cod
+#ds["Composicion"] = comp
+
+
+print(ds.head(10))
+ds.to_excel("comp.xlsx", index=True)
